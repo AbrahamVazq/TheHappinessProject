@@ -37,6 +37,16 @@ class THPRegisterViewController: UIViewController {
     }
     
     private func validateTextFields() -> Bool {
+        
+        if !(emailRegister.text?.isValidEmail() ?? false) && !(emailRegister.isEmpty) {
+            let actions: [UIAlertAction] = [
+                UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default) { [weak self] action -> Void in
+                    self?.emailRegister.text = ""
+                    self?.emailRegister.becomeFirstResponder()
+                }]
+            self.simpleShowAlert(message: "El mail no es valido.", actions: actions)
+        }
+        
         for tf in arrTextfields {
             if tf.isEmpty {
                 switch tf.tag {
@@ -93,6 +103,12 @@ class THPRegisterViewController: UIViewController {
                 if isAccepted {
                     if validateDrowssap() {
                         print("\n\n\n Mismas contras \n\n\n")
+                        let actions: [UIAlertAction] = [
+                            UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default) { [weak self] action -> Void in
+                                self?.view.endEditing(true)
+                            }]
+                        self.simpleShowAlert(message: "Validados todos los campos!.", actions: actions)
+
                     }else {
                         let actions: [UIAlertAction] = [
                             UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default) { [weak self] action -> Void in

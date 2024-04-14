@@ -14,7 +14,7 @@ extension UIViewController {
         view.addGestureRecognizer(tap)
     }
     
-    func simpleShowAlert(_ title: String? = "Black Challenge", message: String? = nil, actions: [UIAlertAction]? = nil){
+    func simpleShowAlert(_ title: String? = "The Happiness Project", message: String? = nil, actions: [UIAlertAction]? = nil){
         let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         if let actions = actions { actions.forEach { alertController.addAction($0) } }
         self.present(alertController, animated: true, completion: nil)

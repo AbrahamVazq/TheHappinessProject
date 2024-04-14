@@ -50,6 +50,16 @@ class THPLoginViewController: UIViewController {
     }
     
     private func validateTextFields() -> Bool {
+        
+        if !(emailLogin.text?.isValidEmail() ?? false) && !(emailLogin.isEmpty) {
+            let actions: [UIAlertAction] = [
+                UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default) { [weak self] action -> Void in
+                    self?.emailLogin.text = ""
+                    self?.emailLogin.becomeFirstResponder()
+                }]
+            self.simpleShowAlert(message: "El mail no es valido.", actions: actions)
+        }
+        
         for tf in arrTextfields {
             if tf.isEmpty {
                 switch tf.tag {
@@ -77,6 +87,11 @@ class THPLoginViewController: UIViewController {
         if validateTextFields() {
             if self.validateMailField() {
                 print("\n\n\n EL CORREO ES VALIDO \n\n\n")
+                let actions: [UIAlertAction] = [
+                    UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default) { [weak self] action -> Void in
+                        self?.view.endEditing(true)
+                    }]
+                self.simpleShowAlert(message: "Validados todos los campos!.", actions: actions)
             }else {
                 let actions: [UIAlertAction] = [
                     UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default) { [weak self] action -> Void in
