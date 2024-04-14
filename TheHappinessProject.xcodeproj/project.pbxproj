@@ -49,6 +49,16 @@
 		A43457C82BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457A92BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift */; };
 		A43457C92BCB7ABC002799C5 /* THPWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457AA2BCB7ABC002799C5 /* THPWelcomeViewController.swift */; };
 		A43457CA2BCB7ABC002799C5 /* THPWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457AB2BCB7ABC002799C5 /* THPWelcomeViewController.xib */; };
+		A43457DF2BCB7B1D002799C5 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457CB2BCB7B1D002799C5 /* CategoriesCollectionViewCell.swift */; };
+		A43457E02BCB7B1D002799C5 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457CC2BCB7B1D002799C5 /* CategoriesCollectionViewCell.xib */; };
+		A43457E12BCB7B1D002799C5 /* OurProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457CE2BCB7B1D002799C5 /* OurProductsCollectionViewCell.swift */; };
+		A43457E22BCB7B1D002799C5 /* OurProductsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457CF2BCB7B1D002799C5 /* OurProductsCollectionViewCell.xib */; };
+		A43457E32BCB7B1D002799C5 /* THPOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457D32BCB7B1D002799C5 /* THPOverviewViewController.swift */; };
+		A43457E42BCB7B1D002799C5 /* THPOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457D42BCB7B1D002799C5 /* THPOverviewViewController.xib */; };
+		A43457E52BCB7B1D002799C5 /* THPLoginNSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457D62BCB7B1D002799C5 /* THPLoginNSignUpViewController.swift */; };
+		A43457E62BCB7B1D002799C5 /* THPLoginNSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457D72BCB7B1D002799C5 /* THPLoginNSignUpViewController.xib */; };
+		A43457E72BCB7B1D002799C5 /* THPCategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457D92BCB7B1D002799C5 /* THPCategoriesTableViewCell.swift */; };
+		A43457E82BCB7B1D002799C5 /* THPCategoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457DA2BCB7B1D002799C5 /* THPCategoriesTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +106,16 @@
 		A43457A92BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "THPWelcomeVC+Extension.swift"; sourceTree = "<group>"; };
 		A43457AA2BCB7ABC002799C5 /* THPWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPWelcomeViewController.swift; sourceTree = "<group>"; };
 		A43457AB2BCB7ABC002799C5 /* THPWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPWelcomeViewController.xib; sourceTree = "<group>"; };
+		A43457CB2BCB7B1D002799C5 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		A43457CC2BCB7B1D002799C5 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		A43457CE2BCB7B1D002799C5 /* OurProductsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A43457CF2BCB7B1D002799C5 /* OurProductsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OurProductsCollectionViewCell.xib; sourceTree = "<group>"; };
+		A43457D32BCB7B1D002799C5 /* THPOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPOverviewViewController.swift; sourceTree = "<group>"; };
+		A43457D42BCB7B1D002799C5 /* THPOverviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPOverviewViewController.xib; sourceTree = "<group>"; };
+		A43457D62BCB7B1D002799C5 /* THPLoginNSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPLoginNSignUpViewController.swift; sourceTree = "<group>"; };
+		A43457D72BCB7B1D002799C5 /* THPLoginNSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPLoginNSignUpViewController.xib; sourceTree = "<group>"; };
+		A43457D92BCB7B1D002799C5 /* THPCategoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPCategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		A43457DA2BCB7B1D002799C5 /* THPCategoriesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPCategoriesTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +151,7 @@
 				A434576C2BCB7996002799C5 /* Extension */,
 				A43457752BCB7A42002799C5 /* Networking */,
 				A43457AE2BCB7ABC002799C5 /* Modules */,
+				A43457DE2BCB7B1D002799C5 /* View */,
 				A434574E2BCB7859002799C5 /* AppDelegate.swift */,
 				A43457502BCB7859002799C5 /* SceneDelegate.swift */,
 				A43457522BCB7859002799C5 /* ViewController.swift */,
@@ -439,6 +460,95 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
+		A43457CD2BCB7B1D002799C5 /* CategoriesCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				A43457CB2BCB7B1D002799C5 /* CategoriesCollectionViewCell.swift */,
+				A43457CC2BCB7B1D002799C5 /* CategoriesCollectionViewCell.xib */,
+			);
+			path = CategoriesCVCell;
+			sourceTree = "<group>";
+		};
+		A43457D02BCB7B1D002799C5 /* OurProductsCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				A43457CE2BCB7B1D002799C5 /* OurProductsCollectionViewCell.swift */,
+				A43457CF2BCB7B1D002799C5 /* OurProductsCollectionViewCell.xib */,
+			);
+			path = OurProductsCVCell;
+			sourceTree = "<group>";
+		};
+		A43457D12BCB7B1D002799C5 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A43457CD2BCB7B1D002799C5 /* CategoriesCVCell */,
+				A43457D02BCB7B1D002799C5 /* OurProductsCVCell */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A43457D22BCB7B1D002799C5 /* THPCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A43457D12BCB7B1D002799C5 /* CollectionViewCell */,
+			);
+			path = THPCollectionView;
+			sourceTree = "<group>";
+		};
+		A43457D52BCB7B1D002799C5 /* THPOverView */ = {
+			isa = PBXGroup;
+			children = (
+				A43457D32BCB7B1D002799C5 /* THPOverviewViewController.swift */,
+				A43457D42BCB7B1D002799C5 /* THPOverviewViewController.xib */,
+			);
+			path = THPOverView;
+			sourceTree = "<group>";
+		};
+		A43457D82BCB7B1D002799C5 /* THPSimpleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A43457D62BCB7B1D002799C5 /* THPLoginNSignUpViewController.swift */,
+				A43457D72BCB7B1D002799C5 /* THPLoginNSignUpViewController.xib */,
+			);
+			path = THPSimpleViewController;
+			sourceTree = "<group>";
+		};
+		A43457DB2BCB7B1D002799C5 /* CategoriesCell */ = {
+			isa = PBXGroup;
+			children = (
+				A43457D92BCB7B1D002799C5 /* THPCategoriesTableViewCell.swift */,
+				A43457DA2BCB7B1D002799C5 /* THPCategoriesTableViewCell.xib */,
+			);
+			path = CategoriesCell;
+			sourceTree = "<group>";
+		};
+		A43457DC2BCB7B1D002799C5 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A43457DB2BCB7B1D002799C5 /* CategoriesCell */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		A43457DD2BCB7B1D002799C5 /* THPTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A43457DC2BCB7B1D002799C5 /* TableViewCell */,
+			);
+			path = THPTableViewCell;
+			sourceTree = "<group>";
+		};
+		A43457DE2BCB7B1D002799C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A43457D22BCB7B1D002799C5 /* THPCollectionView */,
+				A43457D52BCB7B1D002799C5 /* THPOverView */,
+				A43457D82BCB7B1D002799C5 /* THPSimpleViewController */,
+				A43457DD2BCB7B1D002799C5 /* THPTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -499,8 +609,13 @@
 			files = (
 				A43457582BCB785B002799C5 /* Assets.xcassets in Resources */,
 				A43457B52BCB7ABC002799C5 /* THPCategoriesViewController.xib in Resources */,
+				A43457E42BCB7B1D002799C5 /* THPOverviewViewController.xib in Resources */,
+				A43457E22BCB7B1D002799C5 /* OurProductsCollectionViewCell.xib in Resources */,
 				A43457C22BCB7ABC002799C5 /* THPOurProductsViewController.xib in Resources */,
 				A43457BB2BCB7ABC002799C5 /* THPLoginViewController.xib in Resources */,
+				A43457E62BCB7B1D002799C5 /* THPLoginNSignUpViewController.xib in Resources */,
+				A43457E02BCB7B1D002799C5 /* CategoriesCollectionViewCell.xib in Resources */,
+				A43457E82BCB7B1D002799C5 /* THPCategoriesTableViewCell.xib in Resources */,
 				A43457CA2BCB7ABC002799C5 /* THPWelcomeViewController.xib in Resources */,
 				A434575B2BCB785B002799C5 /* Base in Resources */,
 				A43457562BCB7859002799C5 /* Base in Resources */,
@@ -525,6 +640,7 @@
 				A43457532BCB7859002799C5 /* ViewController.swift in Sources */,
 				A43457BF2BCB7ABC002799C5 /* THPOurProductsRouter.swift in Sources */,
 				A43457BD2BCB7ABC002799C5 /* THPOurProductsPresenter.swift in Sources */,
+				A43457E52BCB7B1D002799C5 /* THPLoginNSignUpViewController.swift in Sources */,
 				A43457B82BCB7ABC002799C5 /* THPLoginProtocols.swift in Sources */,
 				A43457712BCB7996002799C5 /* UIVIew+Extension.swift in Sources */,
 				A43457C82BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift in Sources */,
@@ -532,18 +648,22 @@
 				A43457782BCB7A43002799C5 /* THPUrls.swift in Sources */,
 				A43457C52BCB7ABC002799C5 /* THPWelcomePresenter.swift in Sources */,
 				A43457702BCB7996002799C5 /* UITextField+Extension.swift in Sources */,
+				A43457DF2BCB7B1D002799C5 /* CategoriesCollectionViewCell.swift in Sources */,
 				A43457BE2BCB7ABC002799C5 /* THPOurProductsProtocols.swift in Sources */,
 				A43457C62BCB7ABC002799C5 /* THPWelcomeProtocols.swift in Sources */,
 				A434574F2BCB7859002799C5 /* AppDelegate.swift in Sources */,
 				A43457772BCB7A43002799C5 /* THPUrlConfiguration.swift in Sources */,
 				A434576D2BCB7996002799C5 /* UIFont+Extension.swift in Sources */,
 				A43457BC2BCB7ABC002799C5 /* THPOurProductsInteractor.swift in Sources */,
+				A43457E12BCB7B1D002799C5 /* OurProductsCollectionViewCell.swift in Sources */,
 				A43457762BCB7A43002799C5 /* THPServiceManager.swift in Sources */,
 				A43457B22BCB7ABC002799C5 /* THPCategoriesRouter.swift in Sources */,
 				A43457B02BCB7ABC002799C5 /* THPCategoriesPresenter.swift in Sources */,
 				A43457B12BCB7ABC002799C5 /* THPCategoriesProtocols.swift in Sources */,
 				A43457B62BCB7ABC002799C5 /* THPLoginInteractor.swift in Sources */,
+				A43457E72BCB7B1D002799C5 /* THPCategoriesTableViewCell.swift in Sources */,
 				A43457C72BCB7ABC002799C5 /* THPWelcomeRouter.swift in Sources */,
+				A43457E32BCB7B1D002799C5 /* THPOverviewViewController.swift in Sources */,
 				A43457AF2BCB7ABC002799C5 /* THPCategoriesInteractor.swift in Sources */,
 				A43457B32BCB7ABC002799C5 /* THPCategoriesVC+Extension.swift in Sources */,
 				A434576F2BCB7996002799C5 /* String+Extension.swift in Sources */,
