@@ -5,6 +5,12 @@
 import UIKit
 
 extension UITextField {
+    
+    var isEmpty: Bool {
+        if let text = self.text, !text.isEmpty { return false }
+        return true
+    }
+    
     func setIcon(_ image: UIImage) {
         let iconView = UIImageView(frame: CGRect(x: 10, y: 5, width: 20, height: 20))
         iconView.image = image
@@ -13,4 +19,6 @@ extension UITextField {
         leftView = iconContainerView
         leftViewMode = .always
     }
+    
+    
 }

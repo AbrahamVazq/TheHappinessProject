@@ -11,7 +11,15 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="THPRegisterViewController" customModule="TheHappinessProject" customModuleProvider="target">
             <connections>
+                <outlet property="ReSsapRegister" destination="Sai-li-owU" id="rcI-NM-Eiz"/>
+                <outlet property="SsapRegister" destination="GQO-KN-ytA" id="eQ1-ZO-6gE"/>
+                <outlet property="acceptTermsRegister" destination="L1I-og-DW9" id="ho8-Dq-EBd"/>
+                <outlet property="createRegister" destination="Xmn-my-l7u" id="lac-DT-FZq"/>
+                <outlet property="emailRegister" destination="uw0-gS-lH0" id="6gw-Ln-yjh"/>
+                <outlet property="imageRegister" destination="1Id-48-wjK" id="tei-Dz-ggc"/>
+                <outlet property="userRegister" destination="JCW-KV-nds" id="uPd-kv-OpZ"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Pvb-cn-0Xb"/>
+                <outlet property="viewContainer" destination="dzf-fw-6Cj" id="lhB-Ut-v5z"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -88,15 +96,18 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1I-og-DW9">
-                                    <rect key="frame" x="16" y="576.5" width="25" height="25"/>
+                                    <rect key="frame" x="16" y="576.5" width="18" height="18"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="25" id="0a2-pY-p65"/>
-                                        <constraint firstAttribute="width" constant="25" id="eTa-nZ-qKf"/>
+                                        <constraint firstAttribute="height" constant="18" id="0a2-pY-p65"/>
+                                        <constraint firstAttribute="width" constant="18" id="eTa-nZ-qKf"/>
                                     </constraints>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <connections>
+                                        <action selector="AcceptConditions:" destination="-1" eventType="touchUpInside" id="Z4t-D9-TIM"/>
+                                    </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="( terms &amp; conditions copie )" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hb0-Hg-ng7">
-                                    <rect key="frame" x="49" y="579" width="255" height="17"/>
+                                    <rect key="frame" x="42" y="579" width="262" height="17"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -108,6 +119,9 @@
                                     </constraints>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Create Account"/>
+                                    <connections>
+                                        <action selector="goToCreateAccount:" destination="-1" eventType="touchUpInside" id="HE5-oT-M6e"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>

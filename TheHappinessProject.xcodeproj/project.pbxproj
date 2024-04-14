@@ -67,6 +67,7 @@
 		A43457FA2BCB7D64002799C5 /* THPRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457F92BCB7D64002799C5 /* THPRegisterViewController.xib */; };
 		A43457FE2BCB8641002799C5 /* THPRegisterSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457FC2BCB8641002799C5 /* THPRegisterSuccessViewController.swift */; };
 		A43457FF2BCB8641002799C5 /* THPRegisterSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457FD2BCB8641002799C5 /* THPRegisterSuccessViewController.xib */; };
+		A447705E2BCB8CC400EDDEAF /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A447705D2BCB8CC400EDDEAF /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,6 +133,7 @@
 		A43457F92BCB7D64002799C5 /* THPRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THPRegisterViewController.xib; sourceTree = "<group>"; };
 		A43457FC2BCB8641002799C5 /* THPRegisterSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterSuccessViewController.swift; sourceTree = "<group>"; };
 		A43457FD2BCB8641002799C5 /* THPRegisterSuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THPRegisterSuccessViewController.xib; sourceTree = "<group>"; };
+		A447705D2BCB8CC400EDDEAF /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 		A434576C2BCB7996002799C5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A447705C2BCB8C8700EDDEAF /* ViewController */,
 				A43457632BCB7996002799C5 /* Font */,
 				A43457652BCB7996002799C5 /* ImageView */,
 				A43457672BCB7996002799C5 /* String */,
@@ -629,6 +632,14 @@
 			path = THPRegisterSuccess;
 			sourceTree = "<group>";
 		};
+		A447705C2BCB8C8700EDDEAF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A447705D2BCB8CC400EDDEAF /* UIViewController+Extension.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -741,6 +752,7 @@
 				A43457E12BCB7B1D002799C5 /* OurProductsCollectionViewCell.swift in Sources */,
 				A43457762BCB7A43002799C5 /* THPServiceManager.swift in Sources */,
 				A43457B22BCB7ABC002799C5 /* THPCategoriesRouter.swift in Sources */,
+				A447705E2BCB8CC400EDDEAF /* UIViewController+Extension.swift in Sources */,
 				A43457B02BCB7ABC002799C5 /* THPCategoriesPresenter.swift in Sources */,
 				A43457B12BCB7ABC002799C5 /* THPCategoriesProtocols.swift in Sources */,
 				A43457B62BCB7ABC002799C5 /* THPLoginInteractor.swift in Sources */,

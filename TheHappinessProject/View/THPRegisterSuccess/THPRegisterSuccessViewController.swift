@@ -15,9 +15,10 @@ class THPRegisterSuccessViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.configScreen()
     }
 
     private func configScreen(){
-        self.successImage.image = UIImage(systemName: "checkmark.circle")?.withTintColor(.green)
+        self.successImage.image = UIImage(systemName: "checkmark.circle")?.withTintColor(.green, renderingMode: .alwaysOriginal)
     }
 }
