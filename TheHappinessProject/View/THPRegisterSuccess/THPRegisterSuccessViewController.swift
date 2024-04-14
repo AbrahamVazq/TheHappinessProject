@@ -9,10 +9,8 @@ class THPRegisterSuccessViewController: UIViewController {
     @IBOutlet private weak var successImage: UIImageView!
     @IBOutlet private weak var successTitle: UILabel!
     @IBOutlet private weak var successDesc: UILabel!
-    @IBOutlet private weak var successButton: UIButton!
+    @IBOutlet private weak var successButton: UIButton! { didSet { self.successButton.setInitialButton(with: "Start Shopping") }}
     
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configScreen()

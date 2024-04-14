@@ -68,6 +68,8 @@
 		A43457FE2BCB8641002799C5 /* THPRegisterSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457FC2BCB8641002799C5 /* THPRegisterSuccessViewController.swift */; };
 		A43457FF2BCB8641002799C5 /* THPRegisterSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457FD2BCB8641002799C5 /* THPRegisterSuccessViewController.xib */; };
 		A447705E2BCB8CC400EDDEAF /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A447705D2BCB8CC400EDDEAF /* UIViewController+Extension.swift */; };
+		A44770682BCBC1A500EDDEAF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44770672BCBC1A500EDDEAF /* UIColor+Extension.swift */; };
+		A447706B2BCBC84900EDDEAF /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A447706A2BCBC84900EDDEAF /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +136,8 @@
 		A43457FC2BCB8641002799C5 /* THPRegisterSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterSuccessViewController.swift; sourceTree = "<group>"; };
 		A43457FD2BCB8641002799C5 /* THPRegisterSuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THPRegisterSuccessViewController.xib; sourceTree = "<group>"; };
 		A447705D2BCB8CC400EDDEAF /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		A44770672BCBC1A500EDDEAF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A447706A2BCBC84900EDDEAF /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,8 @@
 		A434576C2BCB7996002799C5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A44770692BCBC83400EDDEAF /* Button */,
+				A44770662BCBC19700EDDEAF /* Color */,
 				A447705C2BCB8C8700EDDEAF /* ViewController */,
 				A43457632BCB7996002799C5 /* Font */,
 				A43457652BCB7996002799C5 /* ImageView */,
@@ -640,6 +646,22 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		A44770662BCBC19700EDDEAF /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				A44770672BCBC1A500EDDEAF /* UIColor+Extension.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		A44770692BCBC83400EDDEAF /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				A447706A2BCBC84900EDDEAF /* UIButton+Extension.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -761,7 +783,9 @@
 				A43457E32BCB7B1D002799C5 /* THPOverviewViewController.swift in Sources */,
 				A43457AF2BCB7ABC002799C5 /* THPCategoriesInteractor.swift in Sources */,
 				A43457B32BCB7ABC002799C5 /* THPCategoriesVC+Extension.swift in Sources */,
+				A44770682BCBC1A500EDDEAF /* UIColor+Extension.swift in Sources */,
 				A434576F2BCB7996002799C5 /* String+Extension.swift in Sources */,
+				A447706B2BCBC84900EDDEAF /* UIButton+Extension.swift in Sources */,
 				A43457512BCB7859002799C5 /* SceneDelegate.swift in Sources */,
 				A43457C32BCB7ABC002799C5 /* THPTabBarController.swift in Sources */,
 				A43457F42BCB7D41002799C5 /* THPRegisterPresenter.swift in Sources */,

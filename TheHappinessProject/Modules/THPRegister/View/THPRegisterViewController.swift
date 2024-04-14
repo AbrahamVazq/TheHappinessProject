@@ -23,7 +23,7 @@ class THPRegisterViewController: UIViewController {
             self.ReSsapRegister.isSecureTextEntry = true}}
     
     @IBOutlet private weak var acceptTermsRegister: UIButton! { didSet { self.acceptTermsRegister.borderWidth = 1 }}
-    @IBOutlet private weak var createRegister: UIButton!
+    @IBOutlet private weak var createRegister: UIButton! { didSet { self.createRegister.setInitialButton(with: "Create Account") }}
     
     var presenter: THPRegister_ViewToPresenterProtocol?
     var arrTextfields: [UITextField] = []
