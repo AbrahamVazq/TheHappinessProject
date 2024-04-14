@@ -26,7 +26,7 @@ final class THPTabBarController: UITabBarController {
     func setUpViewControllers(){
         viewControllers = [
             createNavController(for: THPRegisterRouter.createModule(), title: "Login", image: UIImage(systemName: "house.fill") ?? UIImage()),
-            createNavController(for: THPLoginNSignUpViewController(), title: "Login", image: UIImage(systemName: "house.fill") ?? UIImage()),
+            createNavController(for: THPRegisterSuccessViewController(), title: "Login", image: UIImage(systemName: "house.fill") ?? UIImage()),
             createNavController(for: THPWelcomeRouter.createModule(), title: "Welcome", image: UIImage(systemName: "house.fill") ?? UIImage()),
             createNavController(for: THPCategoriesRouter.createModule(), title: "Categories", image: UIImage(systemName: "house.fill") ?? UIImage())
         ]

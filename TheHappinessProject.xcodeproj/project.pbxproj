@@ -65,6 +65,8 @@
 		A43457F72BCB7D41002799C5 /* THPRegisterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457F22BCB7D41002799C5 /* THPRegisterProtocols.swift */; };
 		A43457F82BCB7D41002799C5 /* THPRegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457F32BCB7D41002799C5 /* THPRegisterInteractor.swift */; };
 		A43457FA2BCB7D64002799C5 /* THPRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457F92BCB7D64002799C5 /* THPRegisterViewController.xib */; };
+		A43457FE2BCB8641002799C5 /* THPRegisterSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457FC2BCB8641002799C5 /* THPRegisterSuccessViewController.swift */; };
+		A43457FF2BCB8641002799C5 /* THPRegisterSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457FD2BCB8641002799C5 /* THPRegisterSuccessViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +130,8 @@
 		A43457F22BCB7D41002799C5 /* THPRegisterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterProtocols.swift; sourceTree = "<group>"; };
 		A43457F32BCB7D41002799C5 /* THPRegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterInteractor.swift; sourceTree = "<group>"; };
 		A43457F92BCB7D64002799C5 /* THPRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THPRegisterViewController.xib; sourceTree = "<group>"; };
+		A43457FC2BCB8641002799C5 /* THPRegisterSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterSuccessViewController.swift; sourceTree = "<group>"; };
+		A43457FD2BCB8641002799C5 /* THPRegisterSuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THPRegisterSuccessViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -554,6 +558,7 @@
 		A43457DE2BCB7B1D002799C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A43457FB2BCB861C002799C5 /* THPRegisterSuccess */,
 				A43457D22BCB7B1D002799C5 /* THPCollectionView */,
 				A43457D52BCB7B1D002799C5 /* THPOverView */,
 				A43457D82BCB7B1D002799C5 /* THPSimpleViewController */,
@@ -613,6 +618,15 @@
 				A43457F92BCB7D64002799C5 /* THPRegisterViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A43457FB2BCB861C002799C5 /* THPRegisterSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				A43457FC2BCB8641002799C5 /* THPRegisterSuccessViewController.swift */,
+				A43457FD2BCB8641002799C5 /* THPRegisterSuccessViewController.xib */,
+			);
+			path = THPRegisterSuccess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -677,6 +691,7 @@
 				A43457FA2BCB7D64002799C5 /* THPRegisterViewController.xib in Resources */,
 				A43457B52BCB7ABC002799C5 /* THPCategoriesViewController.xib in Resources */,
 				A43457E42BCB7B1D002799C5 /* THPOverviewViewController.xib in Resources */,
+				A43457FF2BCB8641002799C5 /* THPRegisterSuccessViewController.xib in Resources */,
 				A43457E22BCB7B1D002799C5 /* OurProductsCollectionViewCell.xib in Resources */,
 				A43457C22BCB7ABC002799C5 /* THPOurProductsViewController.xib in Resources */,
 				A43457BB2BCB7ABC002799C5 /* THPLoginViewController.xib in Resources */,
@@ -702,6 +717,7 @@
 				A43457BA2BCB7ABC002799C5 /* THPLoginViewController.swift in Sources */,
 				A43457C12BCB7ABC002799C5 /* THPOurProductsViewController.swift in Sources */,
 				A43457B72BCB7ABC002799C5 /* THPLoginPresenter.swift in Sources */,
+				A43457FE2BCB8641002799C5 /* THPRegisterSuccessViewController.swift in Sources */,
 				A43457B92BCB7ABC002799C5 /* THPLoginRouter.swift in Sources */,
 				A434576E2BCB7996002799C5 /* UIImageView+Extension.swift in Sources */,
 				A43457532BCB7859002799C5 /* ViewController.swift in Sources */,
