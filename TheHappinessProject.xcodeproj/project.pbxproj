@@ -18,6 +18,9 @@
 		A434576F2BCB7996002799C5 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457662BCB7996002799C5 /* String+Extension.swift */; };
 		A43457702BCB7996002799C5 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457682BCB7996002799C5 /* UITextField+Extension.swift */; };
 		A43457712BCB7996002799C5 /* UIVIew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434576A2BCB7996002799C5 /* UIVIew+Extension.swift */; };
+		A43457762BCB7A43002799C5 /* THPServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457722BCB7A42002799C5 /* THPServiceManager.swift */; };
+		A43457772BCB7A43002799C5 /* THPUrlConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457732BCB7A42002799C5 /* THPUrlConfiguration.swift */; };
+		A43457782BCB7A43002799C5 /* THPUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457742BCB7A42002799C5 /* THPUrls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		A43457662BCB7996002799C5 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		A43457682BCB7996002799C5 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		A434576A2BCB7996002799C5 /* UIVIew+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extension.swift"; sourceTree = "<group>"; };
+		A43457722BCB7A42002799C5 /* THPServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPServiceManager.swift; sourceTree = "<group>"; };
+		A43457732BCB7A42002799C5 /* THPUrlConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPUrlConfiguration.swift; sourceTree = "<group>"; };
+		A43457742BCB7A42002799C5 /* THPUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPUrls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				A434576C2BCB7996002799C5 /* Extension */,
+				A43457752BCB7A42002799C5 /* Networking */,
 				A434574E2BCB7859002799C5 /* AppDelegate.swift */,
 				A43457502BCB7859002799C5 /* SceneDelegate.swift */,
 				A43457522BCB7859002799C5 /* ViewController.swift */,
@@ -128,6 +135,16 @@
 				A434576B2BCB7996002799C5 /* View */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A43457752BCB7A42002799C5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A43457722BCB7A42002799C5 /* THPServiceManager.swift */,
+				A43457732BCB7A42002799C5 /* THPUrlConfiguration.swift */,
+				A43457742BCB7A42002799C5 /* THPUrls.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +221,12 @@
 				A434576E2BCB7996002799C5 /* UIImageView+Extension.swift in Sources */,
 				A43457532BCB7859002799C5 /* ViewController.swift in Sources */,
 				A43457712BCB7996002799C5 /* UIVIew+Extension.swift in Sources */,
+				A43457782BCB7A43002799C5 /* THPUrls.swift in Sources */,
 				A43457702BCB7996002799C5 /* UITextField+Extension.swift in Sources */,
 				A434574F2BCB7859002799C5 /* AppDelegate.swift in Sources */,
+				A43457772BCB7A43002799C5 /* THPUrlConfiguration.swift in Sources */,
 				A434576D2BCB7996002799C5 /* UIFont+Extension.swift in Sources */,
+				A43457762BCB7A43002799C5 /* THPServiceManager.swift in Sources */,
 				A434576F2BCB7996002799C5 /* String+Extension.swift in Sources */,
 				A43457512BCB7859002799C5 /* SceneDelegate.swift in Sources */,
 			);
