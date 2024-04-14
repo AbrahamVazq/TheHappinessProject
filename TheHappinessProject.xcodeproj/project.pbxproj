@@ -21,6 +21,34 @@
 		A43457762BCB7A43002799C5 /* THPServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457722BCB7A42002799C5 /* THPServiceManager.swift */; };
 		A43457772BCB7A43002799C5 /* THPUrlConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457732BCB7A42002799C5 /* THPUrlConfiguration.swift */; };
 		A43457782BCB7A43002799C5 /* THPUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457742BCB7A42002799C5 /* THPUrls.swift */; };
+		A43457AF2BCB7ABC002799C5 /* THPCategoriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457792BCB7ABC002799C5 /* THPCategoriesInteractor.swift */; };
+		A43457B02BCB7ABC002799C5 /* THPCategoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434577B2BCB7ABC002799C5 /* THPCategoriesPresenter.swift */; };
+		A43457B12BCB7ABC002799C5 /* THPCategoriesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434577D2BCB7ABC002799C5 /* THPCategoriesProtocols.swift */; };
+		A43457B22BCB7ABC002799C5 /* THPCategoriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434577F2BCB7ABC002799C5 /* THPCategoriesRouter.swift */; };
+		A43457B32BCB7ABC002799C5 /* THPCategoriesVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457812BCB7ABC002799C5 /* THPCategoriesVC+Extension.swift */; };
+		A43457B42BCB7ABC002799C5 /* THPCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457822BCB7ABC002799C5 /* THPCategoriesViewController.swift */; };
+		A43457B52BCB7ABC002799C5 /* THPCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457832BCB7ABC002799C5 /* THPCategoriesViewController.xib */; };
+		A43457B62BCB7ABC002799C5 /* THPLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457862BCB7ABC002799C5 /* THPLoginInteractor.swift */; };
+		A43457B72BCB7ABC002799C5 /* THPLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457882BCB7ABC002799C5 /* THPLoginPresenter.swift */; };
+		A43457B82BCB7ABC002799C5 /* THPLoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434578A2BCB7ABC002799C5 /* THPLoginProtocols.swift */; };
+		A43457B92BCB7ABC002799C5 /* THPLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434578C2BCB7ABC002799C5 /* THPLoginRouter.swift */; };
+		A43457BA2BCB7ABC002799C5 /* THPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434578E2BCB7ABC002799C5 /* THPLoginViewController.swift */; };
+		A43457BB2BCB7ABC002799C5 /* THPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A434578F2BCB7ABC002799C5 /* THPLoginViewController.xib */; };
+		A43457BC2BCB7ABC002799C5 /* THPOurProductsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457922BCB7ABC002799C5 /* THPOurProductsInteractor.swift */; };
+		A43457BD2BCB7ABC002799C5 /* THPOurProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457942BCB7ABC002799C5 /* THPOurProductsPresenter.swift */; };
+		A43457BE2BCB7ABC002799C5 /* THPOurProductsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457962BCB7ABC002799C5 /* THPOurProductsProtocols.swift */; };
+		A43457BF2BCB7ABC002799C5 /* THPOurProductsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457982BCB7ABC002799C5 /* THPOurProductsRouter.swift */; };
+		A43457C02BCB7ABC002799C5 /* THPOurProductsVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434579A2BCB7ABC002799C5 /* THPOurProductsVC+Extension.swift */; };
+		A43457C12BCB7ABC002799C5 /* THPOurProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434579B2BCB7ABC002799C5 /* THPOurProductsViewController.swift */; };
+		A43457C22BCB7ABC002799C5 /* THPOurProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A434579C2BCB7ABC002799C5 /* THPOurProductsViewController.xib */; };
+		A43457C32BCB7ABC002799C5 /* THPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434579F2BCB7ABC002799C5 /* THPTabBarController.swift */; };
+		A43457C42BCB7ABC002799C5 /* THPWelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457A12BCB7ABC002799C5 /* THPWelcomeInteractor.swift */; };
+		A43457C52BCB7ABC002799C5 /* THPWelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457A32BCB7ABC002799C5 /* THPWelcomePresenter.swift */; };
+		A43457C62BCB7ABC002799C5 /* THPWelcomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457A52BCB7ABC002799C5 /* THPWelcomeProtocols.swift */; };
+		A43457C72BCB7ABC002799C5 /* THPWelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457A72BCB7ABC002799C5 /* THPWelcomeRouter.swift */; };
+		A43457C82BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457A92BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift */; };
+		A43457C92BCB7ABC002799C5 /* THPWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457AA2BCB7ABC002799C5 /* THPWelcomeViewController.swift */; };
+		A43457CA2BCB7ABC002799C5 /* THPWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457AB2BCB7ABC002799C5 /* THPWelcomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +68,34 @@
 		A43457722BCB7A42002799C5 /* THPServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPServiceManager.swift; sourceTree = "<group>"; };
 		A43457732BCB7A42002799C5 /* THPUrlConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPUrlConfiguration.swift; sourceTree = "<group>"; };
 		A43457742BCB7A42002799C5 /* THPUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPUrls.swift; sourceTree = "<group>"; };
+		A43457792BCB7ABC002799C5 /* THPCategoriesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPCategoriesInteractor.swift; sourceTree = "<group>"; };
+		A434577B2BCB7ABC002799C5 /* THPCategoriesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPCategoriesPresenter.swift; sourceTree = "<group>"; };
+		A434577D2BCB7ABC002799C5 /* THPCategoriesProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPCategoriesProtocols.swift; sourceTree = "<group>"; };
+		A434577F2BCB7ABC002799C5 /* THPCategoriesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPCategoriesRouter.swift; sourceTree = "<group>"; };
+		A43457812BCB7ABC002799C5 /* THPCategoriesVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "THPCategoriesVC+Extension.swift"; sourceTree = "<group>"; };
+		A43457822BCB7ABC002799C5 /* THPCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPCategoriesViewController.swift; sourceTree = "<group>"; };
+		A43457832BCB7ABC002799C5 /* THPCategoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPCategoriesViewController.xib; sourceTree = "<group>"; };
+		A43457862BCB7ABC002799C5 /* THPLoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPLoginInteractor.swift; sourceTree = "<group>"; };
+		A43457882BCB7ABC002799C5 /* THPLoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPLoginPresenter.swift; sourceTree = "<group>"; };
+		A434578A2BCB7ABC002799C5 /* THPLoginProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPLoginProtocols.swift; sourceTree = "<group>"; };
+		A434578C2BCB7ABC002799C5 /* THPLoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPLoginRouter.swift; sourceTree = "<group>"; };
+		A434578E2BCB7ABC002799C5 /* THPLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPLoginViewController.swift; sourceTree = "<group>"; };
+		A434578F2BCB7ABC002799C5 /* THPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPLoginViewController.xib; sourceTree = "<group>"; };
+		A43457922BCB7ABC002799C5 /* THPOurProductsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPOurProductsInteractor.swift; sourceTree = "<group>"; };
+		A43457942BCB7ABC002799C5 /* THPOurProductsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPOurProductsPresenter.swift; sourceTree = "<group>"; };
+		A43457962BCB7ABC002799C5 /* THPOurProductsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPOurProductsProtocols.swift; sourceTree = "<group>"; };
+		A43457982BCB7ABC002799C5 /* THPOurProductsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPOurProductsRouter.swift; sourceTree = "<group>"; };
+		A434579A2BCB7ABC002799C5 /* THPOurProductsVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "THPOurProductsVC+Extension.swift"; sourceTree = "<group>"; };
+		A434579B2BCB7ABC002799C5 /* THPOurProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPOurProductsViewController.swift; sourceTree = "<group>"; };
+		A434579C2BCB7ABC002799C5 /* THPOurProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPOurProductsViewController.xib; sourceTree = "<group>"; };
+		A434579F2BCB7ABC002799C5 /* THPTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPTabBarController.swift; sourceTree = "<group>"; };
+		A43457A12BCB7ABC002799C5 /* THPWelcomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPWelcomeInteractor.swift; sourceTree = "<group>"; };
+		A43457A32BCB7ABC002799C5 /* THPWelcomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPWelcomePresenter.swift; sourceTree = "<group>"; };
+		A43457A52BCB7ABC002799C5 /* THPWelcomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPWelcomeProtocols.swift; sourceTree = "<group>"; };
+		A43457A72BCB7ABC002799C5 /* THPWelcomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPWelcomeRouter.swift; sourceTree = "<group>"; };
+		A43457A92BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "THPWelcomeVC+Extension.swift"; sourceTree = "<group>"; };
+		A43457AA2BCB7ABC002799C5 /* THPWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPWelcomeViewController.swift; sourceTree = "<group>"; };
+		A43457AB2BCB7ABC002799C5 /* THPWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPWelcomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +130,7 @@
 			children = (
 				A434576C2BCB7996002799C5 /* Extension */,
 				A43457752BCB7A42002799C5 /* Networking */,
+				A43457AE2BCB7ABC002799C5 /* Modules */,
 				A434574E2BCB7859002799C5 /* AppDelegate.swift */,
 				A43457502BCB7859002799C5 /* SceneDelegate.swift */,
 				A43457522BCB7859002799C5 /* ViewController.swift */,
@@ -147,6 +204,241 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		A434577A2BCB7ABC002799C5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A43457792BCB7ABC002799C5 /* THPCategoriesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A434577C2BCB7ABC002799C5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A434577B2BCB7ABC002799C5 /* THPCategoriesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A434577E2BCB7ABC002799C5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A434577D2BCB7ABC002799C5 /* THPCategoriesProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A43457802BCB7ABC002799C5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A434577F2BCB7ABC002799C5 /* THPCategoriesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A43457842BCB7ABC002799C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A43457812BCB7ABC002799C5 /* THPCategoriesVC+Extension.swift */,
+				A43457822BCB7ABC002799C5 /* THPCategoriesViewController.swift */,
+				A43457832BCB7ABC002799C5 /* THPCategoriesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A43457852BCB7ABC002799C5 /* THPCategories */ = {
+			isa = PBXGroup;
+			children = (
+				A434577A2BCB7ABC002799C5 /* Interactor */,
+				A434577C2BCB7ABC002799C5 /* Presenter */,
+				A434577E2BCB7ABC002799C5 /* Protocols */,
+				A43457802BCB7ABC002799C5 /* Router */,
+				A43457842BCB7ABC002799C5 /* View */,
+			);
+			path = THPCategories;
+			sourceTree = "<group>";
+		};
+		A43457872BCB7ABC002799C5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A43457862BCB7ABC002799C5 /* THPLoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A43457892BCB7ABC002799C5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A43457882BCB7ABC002799C5 /* THPLoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A434578B2BCB7ABC002799C5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A434578A2BCB7ABC002799C5 /* THPLoginProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A434578D2BCB7ABC002799C5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A434578C2BCB7ABC002799C5 /* THPLoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A43457902BCB7ABC002799C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A434578E2BCB7ABC002799C5 /* THPLoginViewController.swift */,
+				A434578F2BCB7ABC002799C5 /* THPLoginViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A43457912BCB7ABC002799C5 /* THPLogin */ = {
+			isa = PBXGroup;
+			children = (
+				A43457872BCB7ABC002799C5 /* Interactor */,
+				A43457892BCB7ABC002799C5 /* Presenter */,
+				A434578B2BCB7ABC002799C5 /* Protocols */,
+				A434578D2BCB7ABC002799C5 /* Router */,
+				A43457902BCB7ABC002799C5 /* View */,
+			);
+			path = THPLogin;
+			sourceTree = "<group>";
+		};
+		A43457932BCB7ABC002799C5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A43457922BCB7ABC002799C5 /* THPOurProductsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A43457952BCB7ABC002799C5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A43457942BCB7ABC002799C5 /* THPOurProductsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A43457972BCB7ABC002799C5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A43457962BCB7ABC002799C5 /* THPOurProductsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A43457992BCB7ABC002799C5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A43457982BCB7ABC002799C5 /* THPOurProductsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A434579D2BCB7ABC002799C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A434579A2BCB7ABC002799C5 /* THPOurProductsVC+Extension.swift */,
+				A434579B2BCB7ABC002799C5 /* THPOurProductsViewController.swift */,
+				A434579C2BCB7ABC002799C5 /* THPOurProductsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A434579E2BCB7ABC002799C5 /* THPOurProducts */ = {
+			isa = PBXGroup;
+			children = (
+				A43457932BCB7ABC002799C5 /* Interactor */,
+				A43457952BCB7ABC002799C5 /* Presenter */,
+				A43457972BCB7ABC002799C5 /* Protocols */,
+				A43457992BCB7ABC002799C5 /* Router */,
+				A434579D2BCB7ABC002799C5 /* View */,
+			);
+			path = THPOurProducts;
+			sourceTree = "<group>";
+		};
+		A43457A02BCB7ABC002799C5 /* THPTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A434579F2BCB7ABC002799C5 /* THPTabBarController.swift */,
+			);
+			path = THPTabBarController;
+			sourceTree = "<group>";
+		};
+		A43457A22BCB7ABC002799C5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A43457A12BCB7ABC002799C5 /* THPWelcomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A43457A42BCB7ABC002799C5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A43457A32BCB7ABC002799C5 /* THPWelcomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A43457A62BCB7ABC002799C5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A43457A52BCB7ABC002799C5 /* THPWelcomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A43457A82BCB7ABC002799C5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A43457A72BCB7ABC002799C5 /* THPWelcomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A43457AC2BCB7ABC002799C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A43457A92BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift */,
+				A43457AA2BCB7ABC002799C5 /* THPWelcomeViewController.swift */,
+				A43457AB2BCB7ABC002799C5 /* THPWelcomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A43457AD2BCB7ABC002799C5 /* THPWelcome */ = {
+			isa = PBXGroup;
+			children = (
+				A43457A22BCB7ABC002799C5 /* Interactor */,
+				A43457A42BCB7ABC002799C5 /* Presenter */,
+				A43457A62BCB7ABC002799C5 /* Protocols */,
+				A43457A82BCB7ABC002799C5 /* Router */,
+				A43457AC2BCB7ABC002799C5 /* View */,
+			);
+			path = THPWelcome;
+			sourceTree = "<group>";
+		};
+		A43457AE2BCB7ABC002799C5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A43457852BCB7ABC002799C5 /* THPCategories */,
+				A43457912BCB7ABC002799C5 /* THPLogin */,
+				A434579E2BCB7ABC002799C5 /* THPOurProducts */,
+				A43457A02BCB7ABC002799C5 /* THPTabBarController */,
+				A43457AD2BCB7ABC002799C5 /* THPWelcome */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,6 +498,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43457582BCB785B002799C5 /* Assets.xcassets in Resources */,
+				A43457B52BCB7ABC002799C5 /* THPCategoriesViewController.xib in Resources */,
+				A43457C22BCB7ABC002799C5 /* THPOurProductsViewController.xib in Resources */,
+				A43457BB2BCB7ABC002799C5 /* THPLoginViewController.xib in Resources */,
+				A43457CA2BCB7ABC002799C5 /* THPWelcomeViewController.xib in Resources */,
 				A434575B2BCB785B002799C5 /* Base in Resources */,
 				A43457562BCB7859002799C5 /* Base in Resources */,
 			);
@@ -218,17 +514,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43457C92BCB7ABC002799C5 /* THPWelcomeViewController.swift in Sources */,
+				A43457C42BCB7ABC002799C5 /* THPWelcomeInteractor.swift in Sources */,
+				A43457B42BCB7ABC002799C5 /* THPCategoriesViewController.swift in Sources */,
+				A43457BA2BCB7ABC002799C5 /* THPLoginViewController.swift in Sources */,
+				A43457C12BCB7ABC002799C5 /* THPOurProductsViewController.swift in Sources */,
+				A43457B72BCB7ABC002799C5 /* THPLoginPresenter.swift in Sources */,
+				A43457B92BCB7ABC002799C5 /* THPLoginRouter.swift in Sources */,
 				A434576E2BCB7996002799C5 /* UIImageView+Extension.swift in Sources */,
 				A43457532BCB7859002799C5 /* ViewController.swift in Sources */,
+				A43457BF2BCB7ABC002799C5 /* THPOurProductsRouter.swift in Sources */,
+				A43457BD2BCB7ABC002799C5 /* THPOurProductsPresenter.swift in Sources */,
+				A43457B82BCB7ABC002799C5 /* THPLoginProtocols.swift in Sources */,
 				A43457712BCB7996002799C5 /* UIVIew+Extension.swift in Sources */,
+				A43457C82BCB7ABC002799C5 /* THPWelcomeVC+Extension.swift in Sources */,
+				A43457C02BCB7ABC002799C5 /* THPOurProductsVC+Extension.swift in Sources */,
 				A43457782BCB7A43002799C5 /* THPUrls.swift in Sources */,
+				A43457C52BCB7ABC002799C5 /* THPWelcomePresenter.swift in Sources */,
 				A43457702BCB7996002799C5 /* UITextField+Extension.swift in Sources */,
+				A43457BE2BCB7ABC002799C5 /* THPOurProductsProtocols.swift in Sources */,
+				A43457C62BCB7ABC002799C5 /* THPWelcomeProtocols.swift in Sources */,
 				A434574F2BCB7859002799C5 /* AppDelegate.swift in Sources */,
 				A43457772BCB7A43002799C5 /* THPUrlConfiguration.swift in Sources */,
 				A434576D2BCB7996002799C5 /* UIFont+Extension.swift in Sources */,
+				A43457BC2BCB7ABC002799C5 /* THPOurProductsInteractor.swift in Sources */,
 				A43457762BCB7A43002799C5 /* THPServiceManager.swift in Sources */,
+				A43457B22BCB7ABC002799C5 /* THPCategoriesRouter.swift in Sources */,
+				A43457B02BCB7ABC002799C5 /* THPCategoriesPresenter.swift in Sources */,
+				A43457B12BCB7ABC002799C5 /* THPCategoriesProtocols.swift in Sources */,
+				A43457B62BCB7ABC002799C5 /* THPLoginInteractor.swift in Sources */,
+				A43457C72BCB7ABC002799C5 /* THPWelcomeRouter.swift in Sources */,
+				A43457AF2BCB7ABC002799C5 /* THPCategoriesInteractor.swift in Sources */,
+				A43457B32BCB7ABC002799C5 /* THPCategoriesVC+Extension.swift in Sources */,
 				A434576F2BCB7996002799C5 /* String+Extension.swift in Sources */,
 				A43457512BCB7859002799C5 /* SceneDelegate.swift in Sources */,
+				A43457C32BCB7ABC002799C5 /* THPTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
