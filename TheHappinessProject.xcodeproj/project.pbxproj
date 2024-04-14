@@ -59,6 +59,12 @@
 		A43457E62BCB7B1D002799C5 /* THPLoginNSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457D72BCB7B1D002799C5 /* THPLoginNSignUpViewController.xib */; };
 		A43457E72BCB7B1D002799C5 /* THPCategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457D92BCB7B1D002799C5 /* THPCategoriesTableViewCell.swift */; };
 		A43457E82BCB7B1D002799C5 /* THPCategoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457DA2BCB7B1D002799C5 /* THPCategoriesTableViewCell.xib */; };
+		A43457F42BCB7D41002799C5 /* THPRegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457EF2BCB7D41002799C5 /* THPRegisterPresenter.swift */; };
+		A43457F52BCB7D41002799C5 /* THPRegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457F02BCB7D41002799C5 /* THPRegisterRouter.swift */; };
+		A43457F62BCB7D41002799C5 /* THPRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457F12BCB7D41002799C5 /* THPRegisterViewController.swift */; };
+		A43457F72BCB7D41002799C5 /* THPRegisterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457F22BCB7D41002799C5 /* THPRegisterProtocols.swift */; };
+		A43457F82BCB7D41002799C5 /* THPRegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43457F32BCB7D41002799C5 /* THPRegisterInteractor.swift */; };
+		A43457FA2BCB7D64002799C5 /* THPRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43457F92BCB7D64002799C5 /* THPRegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +122,12 @@
 		A43457D72BCB7B1D002799C5 /* THPLoginNSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPLoginNSignUpViewController.xib; sourceTree = "<group>"; };
 		A43457D92BCB7B1D002799C5 /* THPCategoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THPCategoriesTableViewCell.swift; sourceTree = "<group>"; };
 		A43457DA2BCB7B1D002799C5 /* THPCategoriesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPCategoriesTableViewCell.xib; sourceTree = "<group>"; };
+		A43457EF2BCB7D41002799C5 /* THPRegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterPresenter.swift; sourceTree = "<group>"; };
+		A43457F02BCB7D41002799C5 /* THPRegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterRouter.swift; sourceTree = "<group>"; };
+		A43457F12BCB7D41002799C5 /* THPRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterViewController.swift; sourceTree = "<group>"; };
+		A43457F22BCB7D41002799C5 /* THPRegisterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterProtocols.swift; sourceTree = "<group>"; };
+		A43457F32BCB7D41002799C5 /* THPRegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THPRegisterInteractor.swift; sourceTree = "<group>"; };
+		A43457F92BCB7D64002799C5 /* THPRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THPRegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,8 +463,9 @@
 		A43457AE2BCB7ABC002799C5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A43457852BCB7ABC002799C5 /* THPCategories */,
 				A43457912BCB7ABC002799C5 /* THPLogin */,
+				A43457E92BCB7D04002799C5 /* THPRegister */,
+				A43457852BCB7ABC002799C5 /* THPCategories */,
 				A434579E2BCB7ABC002799C5 /* THPOurProducts */,
 				A43457A02BCB7ABC002799C5 /* THPTabBarController */,
 				A43457AD2BCB7ABC002799C5 /* THPWelcome */,
@@ -549,6 +562,59 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A43457E92BCB7D04002799C5 /* THPRegister */ = {
+			isa = PBXGroup;
+			children = (
+				A43457EE2BCB7D29002799C5 /* View */,
+				A43457ED2BCB7D21002799C5 /* Interactor */,
+				A43457EC2BCB7D1B002799C5 /* Presenter */,
+				A43457EB2BCB7D16002799C5 /* Protocols */,
+				A43457EA2BCB7D10002799C5 /* Router */,
+			);
+			path = THPRegister;
+			sourceTree = "<group>";
+		};
+		A43457EA2BCB7D10002799C5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A43457F02BCB7D41002799C5 /* THPRegisterRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A43457EB2BCB7D16002799C5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A43457F22BCB7D41002799C5 /* THPRegisterProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A43457EC2BCB7D1B002799C5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A43457EF2BCB7D41002799C5 /* THPRegisterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A43457ED2BCB7D21002799C5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A43457F32BCB7D41002799C5 /* THPRegisterInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A43457EE2BCB7D29002799C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A43457F12BCB7D41002799C5 /* THPRegisterViewController.swift */,
+				A43457F92BCB7D64002799C5 /* THPRegisterViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -608,6 +674,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43457582BCB785B002799C5 /* Assets.xcassets in Resources */,
+				A43457FA2BCB7D64002799C5 /* THPRegisterViewController.xib in Resources */,
 				A43457B52BCB7ABC002799C5 /* THPCategoriesViewController.xib in Resources */,
 				A43457E42BCB7B1D002799C5 /* THPOverviewViewController.xib in Resources */,
 				A43457E22BCB7B1D002799C5 /* OurProductsCollectionViewCell.xib in Resources */,
@@ -669,6 +736,11 @@
 				A434576F2BCB7996002799C5 /* String+Extension.swift in Sources */,
 				A43457512BCB7859002799C5 /* SceneDelegate.swift in Sources */,
 				A43457C32BCB7ABC002799C5 /* THPTabBarController.swift in Sources */,
+				A43457F42BCB7D41002799C5 /* THPRegisterPresenter.swift in Sources */,
+				A43457F52BCB7D41002799C5 /* THPRegisterRouter.swift in Sources */,
+				A43457F62BCB7D41002799C5 /* THPRegisterViewController.swift in Sources */,
+				A43457F72BCB7D41002799C5 /* THPRegisterProtocols.swift in Sources */,
+				A43457F82BCB7D41002799C5 /* THPRegisterInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
