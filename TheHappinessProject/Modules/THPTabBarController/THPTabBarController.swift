@@ -5,9 +5,8 @@
 import UIKit
 
 final class THPTabBarController: UITabBarController {
-    /// Creamos una variable de tipo color, para usarlo en la apariencia del tapBar
-    let black = UIColor.black
     
+    let black = UIColor.black
     
     //MARK: - F U N C T I O N S
     override func viewDidLoad() {
@@ -26,9 +25,9 @@ final class THPTabBarController: UITabBarController {
     func setUpViewControllers(){
         viewControllers = [
             createNavController(for: THPLoginRouter.createModule(), title: "Login", image: UIImage(systemName: "house.fill") ?? UIImage()),
-            createNavController(for: THPRegisterSuccessViewController(), title: "Login", image: UIImage(systemName: "house.fill") ?? UIImage()),
-            createNavController(for: THPRegisterRouter.createModule(), title: "Welcome", image: UIImage(systemName: "house.fill") ?? UIImage()),
-            createNavController(for: THPCategoriesRouter.createModule(), title: "Categories", image: UIImage(systemName: "house.fill") ?? UIImage())
+            createNavController(for: THPRegisterRouter.createModule(), title: "Register", image: UIImage(systemName: "house.fill") ?? UIImage()),
+            createNavController(for: THPRegisterSuccessViewController(), title: "Success", image: UIImage(systemName: "house.fill") ?? UIImage()),
+            createNavController(for: THPWelcomeRouter.createModule(), title: "Welcome", image: UIImage(systemName: "house.fill") ?? UIImage())
         ]
     }
 
